@@ -3,6 +3,7 @@ import { useSelector } from "react-redux";
 
 import "./CartCompras.css";
 import CartItem from "./CartItem";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const CartCompras = () => {
   const state = useSelector((state) => state);
@@ -38,7 +39,7 @@ const CartCompras = () => {
           <div className="info_cart">
             <span>Total: {totalCart.toFixed(2)} Reais</span>
             <button className="button_principal" onClick={HandleComprar}>
-              Comprar
+              <i className="fa-brands fa-whatsapp"></i> Comprar
             </button>
           </div>
         </div>
