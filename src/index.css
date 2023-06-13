@@ -78,10 +78,12 @@ body {
   color: white;
 }
 .button_principal > i {
-  border: 1px solid var(--second-color);
   padding: 0;
   margin: 0px;
   font-size: 1.2rem;
+}
+.button_whatsapp {
+  background-color: green;
 }
 
 .del_button {
@@ -114,13 +116,6 @@ body {
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
-}
-input[type="text"]:focus,
-input[type="number"]:focus,
-input[type="password"]:focus,
-input[type="email"]:focus {
-  box-shadow: 0px 0px 2rem var(--second-color);
-  transition: 0.5s;
 }
 
 @media only screen and (min-width: 600px) {

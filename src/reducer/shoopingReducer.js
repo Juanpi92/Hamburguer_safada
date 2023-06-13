@@ -46,6 +46,7 @@ export const shoppingSlice = createSlice({
     delCart: (state) => {
       state.cart = [];
       localStorage.removeItem("cartlocal");
+      state.totalCart = 0;
     },
     calculateTotalCart: (state) => {
       state.totalCart = 0;
