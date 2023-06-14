@@ -29,18 +29,19 @@ const Footer = () => {
           <div className="contacto">
             <p className="descripcion">Contacto</p>
             <div>
-              <i className="fa-solid fa-house"></i> Coliseo 18. Maracanhã. Rio
-              de Janeiro. RJ. CEP: 105682-21
+              <i className="fa-solid fa-house"></i> Rua Ministro Luis Sparano
+              373
             </div>
             <div>
-              <i className="fa-solid fa-phone"></i> +5521970657890
+              <i className="fa-solid fa-phone"></i> +55 11 94893-8258
             </div>
             <div>
-              <i className="fa-solid fa-envelope"></i> vegetanizando@gmail.com
+              <i className="fa-solid fa-envelope"></i>{" "}
+              burguersafadahouse@gmail.com
             </div>
           </div>
         </div>
-        <div className="ultima2">© 2023 Copyright: FrontEnders</div>
+        <div className="ultima2">© 2023 Copyright: Juan Pablo Urgellés</div>
       </footer>
     </>
   );
