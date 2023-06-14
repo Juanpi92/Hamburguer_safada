@@ -7,6 +7,7 @@
   box-shadow: 0 0 1rem var(--second-color);
   border-radius: 10px;
   width: 300px;
+  height: 620px;
   position: relative;
 }
 .imagen_product {
@@ -38,6 +39,8 @@ p.title_card {
 }
 .div_button {
   text-align: center;
-  margin: 15px 0px;
+  position: absolute;
+  bottom: 5px;
+  margin: 5px 0px;
   width: 100%;
 }

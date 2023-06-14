@@ -7,7 +7,7 @@ const ProductCard = ({ data }) => {
   const dispatch = useDispatch();
   const state = useSelector((state) => state);
   const { cart } = state.shopping;
-  let { id, src, name, portion, price, description } = data;
+  let { id, src, name, acompana, price, description } = data;
   return (
     <>
       <div className="card">
@@ -17,7 +17,7 @@ const ProductCard = ({ data }) => {
         <article className="texto_card">
           <p className="title_card">{name}</p>
           <p>{description}</p>
-          <p>Porção: {portion}</p>
+          {acompana === "" ? <></> : <p>Acompanha: {acompana}</p>}
           <p className="price">Preço: R$ {price.toFixed(2)}</p>
         </article>
         <div className="div_button">
