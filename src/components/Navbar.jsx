@@ -26,22 +26,34 @@ const Navbar = () => {
         <div className="link" ref={$links}>
           <ul>
             <li>
-              <NavLink to="/" activeclassname="active">
+              <NavLink to="/" activeclassname="active" onClick={HandleClick}>
                 Home
               </NavLink>
             </li>
             <li>
-              <NavLink to="/acerca" activeclassname="active">
+              <NavLink
+                to="/acerca"
+                activeclassname="active"
+                onClick={HandleClick}
+              >
                 Acerca
               </NavLink>
             </li>
             <li>
-              <NavLink to="/servicos" activeclassname="active">
+              <NavLink
+                to="/servicos"
+                activeclassname="active"
+                onClick={HandleClick}
+              >
                 Serviços
               </NavLink>
             </li>
             <li>
-              <NavLink to="/cart" activeclassname="active">
+              <NavLink
+                to="/cart"
+                activeclassname="active"
+                onClick={HandleClick}
+              >
                 <i
                   className="fa-solid fa-cart-shopping"
                   style={{ position: "relative" }}

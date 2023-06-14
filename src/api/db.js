@@ -1,10 +1,12 @@
 export const products = [
   {
     id: 1,
-    src: "./imagenes/products/bebibdarefrescantetangerina.jpg",
-    name: "Bebida refrescante",
-    portion: "500ml",
-    price: 15.0,
+    src: "./imagenes/products/combodoissafadinhabacon.jpeg",
+    name: "COMBO DOIS SAFADINHA BACON",
+    description:
+      "Pão brioche, 2 carne 190g, bacon, 2 queijo cheddar e maionese",
+    portion: "batata frita + Bebida",
+    price: 54.9,
   },
   {
     id: 2,
