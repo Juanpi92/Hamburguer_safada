@@ -11,13 +11,13 @@
 
 body {
   background: -webkit-linear-gradient(top, rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.7)),
-    url("./imagenes/background.jpg");
+    url("./imagenes/background.jpeg");
   background: -o-linear-gradient(top, rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.7)),
-    url("./imagenes/background.jpg");
+    url("./imagenes/background.jpeg");
   background: -moz-linear-gradient(top, rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.7)),
-    url("./imagenes/background.jpg");
+    url("./imagenes/background.jpeg");
   background: linear-gradient(top, rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.7)),
-    url("./imagenes/background.jpg");
+    url("./imagenes/background.jpeg");
   height: 100vh;
   width: 100vw;
 
