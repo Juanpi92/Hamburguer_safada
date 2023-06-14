@@ -10,7 +10,6 @@ import Cart from "./pages/Cart";
 import Error404 from "./pages/Error404";
 import Loader from "./components/Loader";
 import { useDispatch, useSelector } from "react-redux";
-import axios from "axios";
 import { actualizarCart, actualizarProductos } from "./reducer/shoopingReducer";
 import { products } from "./api/db";
 
