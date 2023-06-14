@@ -43,10 +43,10 @@
   background: none;
 }
 .logout:hover {
-  background-color: var(--second-color);
+  background-color: var(--second-color-principal);
 }
 .link li:hover {
-  background-color: var(--second-color);
+  background-color: var(--second-color-principal);
 }
 .toggle_button {
   position: absolute;
