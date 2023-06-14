@@ -14,12 +14,12 @@ const CartCompras = () => {
     if (cart.length === 0) {
       return alert("O seu cart esta vazio ainda");
     }
-    let mensagem = "Eu vou querer:\n";
+    let mensagem = "Olá, eu vou querer:\n";
     for (let index = 0; index < cart.length; index++) {
-      mensagem += `${cart[index].name}....${cart[index].quantity}\n`;
+      mensagem += `${cart[index].name}----${cart[index].quantity}\n`;
     }
     window.open(
-      `https://wa.me/5521970466843?text=${encodeURIComponent(mensagem)}`,
+      `https://wa.me/5511948938258?text=${encodeURIComponent(mensagem)}`,
       "_blank"
     );
     dispatch(delCart());
