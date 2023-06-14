@@ -41,15 +41,6 @@ const Navbar = () => {
             </li>
             <li>
               <NavLink
-                to="/servicos"
-                activeclassname="active"
-                onClick={HandleClick}
-              >
-                Serviços
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
                 to="/cart"
                 activeclassname="active"
                 onClick={HandleClick}
