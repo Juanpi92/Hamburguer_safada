@@ -3,7 +3,6 @@ export const products = [
     id: 1,
     src: "./imagenes/products/bebibdarefrescantetangerina.jpg",
     name: "Bebida refrescante",
-    description: "Laranja, abacate e coco ",
     portion: "500ml",
     price: 15.0,
   },
@@ -11,7 +10,6 @@ export const products = [
     id: 2,
     src: "./imagenes/products/bebidadegengibreefrutas.jpg",
     name: "Bebida refrescante",
-    description: "Kiwi, gengibre, limão e banana",
     portion: "500ml",
     price: 20.0,
   },
@@ -19,8 +17,6 @@ export const products = [
     id: 3,
     src: "./imagenes/products/minicarolinadecanela.webp",
     name: "Mini Carolina",
-    description:
-      "Recheio de doce de leite com castanha de caju e polvilhado com canela",
     portion: "Porção com 10",
     price: 12.0,
   },
@@ -28,7 +24,6 @@ export const products = [
     id: 4,
     src: "./imagenes/products/tortadenozes.webp",
     name: "Torta de nozes",
-    description: "Recheio de chocolate e nozes picadas",
     portion: "Porção: 1 fatia",
     price: 15.0,
   },
@@ -36,8 +31,6 @@ export const products = [
     id: 5,
     src: "./imagenes/products/legumesassado.jpg",
     name: "Legumes Assados",
-    description:
-      "Arroz, feijão, legumes assado - berinjela, abóbora, batata, tomate, temperos - e molho especial da casa",
     portion: "1 Porção",
     price: 30.0,
   },
@@ -45,8 +38,6 @@ export const products = [
     id: 6,
     src: "./imagenes/products/abobrinharechada.jpg",
     name: "Aboborinha Recheada",
-    description:
-      "Arroz, feijão, abobrinha recheada c/ lentilha refolgada na cebola, alho, tomate e temperos. Acompanha farofa de banana",
     portion: "1 Porção",
     price: 20.0,
   },
@@ -54,8 +45,6 @@ export const products = [
     id: 7,
     src: "./imagenes/products/batatarecheada.webp",
     name: "Batata Recheada",
-    description:
-      "Batata de 500g recheada c/ carne de jaca desfiada, milho, tomate, cenoura e molho tipo cheddar feito c/ inhame",
     portion: "Porção para 2 pessoas",
     price: 45.0,
   },
@@ -63,8 +52,6 @@ export const products = [
     id: 8,
     src: "./imagenes/products/churrascovegan.webp",
     name: "Churrasquinho",
-    description:
-      "Arroz, farofa, maionese de batata, vinagrete, 2 pães de algo e dois espetos - carne de soja, pimentão e abobrinha marinados em molho especial",
     portion: "Porção para 2 pessoas",
     price: 50.0,
   },
@@ -72,8 +59,6 @@ export const products = [
     id: 9,
     src: "./imagenes/products/sopadelegumes.png",
     name: "Sopa de Legumes",
-    description:
-      "Macarrão parafuso, molho de ervilhas e caldo de feijão c/ grão de bico, abóbora, cenoura, batata, brócolis e abobrinha",
     portion: "1 Porção",
     price: 45.0,
   },
@@ -81,8 +66,6 @@ export const products = [
     id: 10,
     src: "./imagenes/products/graodebicopepinoebolinhodelentilha.jpg",
     name: "Grão de bico",
-    description:
-      "Grão de bico cozido com temperos, salada de pepino e bolinho de lentilha assado.",
     portion: "1 Porção",
     price: 25.0,
   },
@@ -90,8 +73,6 @@ export const products = [
     id: 11,
     src: "./imagenes/products/strogonoffvegano.webp",
     name: "Strogonoff Vegano",
-    description:
-      "Arroz, Strogonoff de shitake, shimeju, Champions, molho de inhame e batata palha.",
     portion: "1 Porção",
     price: 35.0,
   },

@@ -3,11 +3,13 @@ import { useDispatch, useSelector } from "react-redux";
 import "./CartCompras.css";
 import CartItem from "./CartItem";
 import { delCart } from "../reducer/shoopingReducer";
+import { useNavigate } from "react-router-dom";
 
 const CartCompras = () => {
   const state = useSelector((state) => state);
   const { cart, totalCart } = state.shopping;
   const dispatch = useDispatch();
+  const Navigate = useNavigate();
   const HandleComprar = () => {
     if (cart.length === 0) {
       return alert("O seu cart esta vazio ainda");
@@ -16,12 +18,12 @@ const CartCompras = () => {
     for (let index = 0; index < cart.length; index++) {
       mensagem += `${cart[index].name}....${cart[index].quantity}\n`;
     }
-    console.log(mensagem);
     window.open(
       `https://wa.me/5521970466843?text=${encodeURIComponent(mensagem)}`,
       "_blank"
     );
-    //dispatch(delCart());
+    dispatch(delCart());
+    Navigate("/");
   };
   return (
     <>
